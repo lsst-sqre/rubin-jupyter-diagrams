@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg width="767" height="587" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!--WillInclude_umd3-->
+<path d="M 47.96 81.90 L 386.65 81.90 L 386.65 545.12 L 47.96 545.12 Z M 47.96 81.90" stroke-width="1.00" stroke="black" stroke-linecap="round" stroke-linejoin="round" fill="white"  />
+
+<text x="131.59" y="98.64" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >MultiNamespacedKubeSpawner</text>
+<text x="124.92" y="113.64" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >extends (upstream) KubeSpawner.</text>
+<text x="129.25" y="143.64" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >Adds a namespace attribute, and</text>
+<text x="137.60" y="158.64" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >requires a new reflector class.</text>
+<text x="110.58" y="188.64" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >Needs rework for current KubeSpawner,</text>
+<text x="103.25" y="203.64" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >which changed reflector from object to dict.</text>
+<path d="M 69.75 225.62 L 364.39 225.62 L 364.39 508.17 L 69.75 508.17 Z M 69.75 225.62" stroke-width="1.00" stroke="black" stroke-linecap="round" stroke-linejoin="round" fill="white"  />
+
+<text x="122.70" y="319.13" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >MultiNamespaceResourceReflector</text>
+<text x="165.38" y="334.13" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >extends (upstream)</text>
+<text x="132.03" y="349.13" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >NamespacedResourceReflector</text>
+<text x="142.03" y="379.13" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >list_method_name omits the</text>
+<text x="144.36" y="394.13" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >namespace, and requires a</text>
+<text x="148.71" y="409.13" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >cluster role to do it across</text>
+<text x="159.04" y="424.13" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >multiple namespaces.</text>
+<path d="M 404.79 83.68 L 743.48 83.68 L 743.48 546.90 L 404.79 546.90 Z M 404.79 83.68" stroke-width="1.00" stroke="black" stroke-linecap="round" stroke-linejoin="round" fill="white"  />
+
+<text x="512.09" y="100.42" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >RubinSpawner extends</text>
+<text x="488.42" y="115.42" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >MultiNamespacedKubeSpawner</text>
+<text x="493.74" y="130.42" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >by adding a Rubin Manager to</text>
+<text x="514.45" y="145.42" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >it to track user-specific</text>
+<text x="520.43" y="160.42" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >additional resources</text>
+<text x="481.74" y="175.42" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >(e.g. namespace, role, rolebinding,</text>
+<text x="508.11" y="190.42" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >volumes, configmaps….)</text>
+<text x="500.42" y="220.42" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >Also includes an attribute to</text>
+<text x="494.42" y="235.42" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >control whether namespace is</text>
+<text x="503.41" y="250.42" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >deleted when the user pod</text>
+<text x="560.13" y="265.42" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >exits.</text>
+<path d="M 445.75 270.88 L 723.70 270.88 L 723.70 523.34 L 445.75 523.34 Z M 445.75 270.88" stroke-width="1.00" stroke="black" stroke-linecap="round" stroke-linejoin="round" fill="white"  />
+
+<text x="545.37" y="287.62" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >RubinManager</text>
+<path d="M 446.45 480.44 L 722.99 480.44 L 722.99 525.26 L 446.45 525.26 Z M 446.45 480.44" stroke-width="1.00" stroke="black" stroke-linecap="round" stroke-linejoin="round" fill="white"  />
+
+<text x="548.37" y="507.59" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >Config Object</text>
+<path d="M 478.67 302.67 L 723.16 302.67 L 723.16 481.04 L 478.67 481.04 Z M 478.67 302.67" stroke-width="1.00" stroke="black" stroke-linecap="round" stroke-linejoin="round" fill="white"  />
+
+<path d="M 478.34 302.02 L 723.82 302.02 L 723.82 322.49 L 478.34 322.49 Z M 478.34 302.02" stroke-width="1.00" stroke="black" stroke-linecap="round" stroke-linejoin="round" fill="white"  />
+
+<text x="581.07" y="316.99" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >api mgr</text>
+<path d="M 478.60 323.16 L 722.29 323.16 L 722.29 344.58 L 478.60 344.58 Z M 478.60 323.16" stroke-width="1.00" stroke="black" stroke-linecap="round" stroke-linejoin="round" fill="white"  />
+
+<text x="578.77" y="338.61" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >env mgr</text>
+<path d="M 480.12 346.38 L 722.12 346.38 L 722.12 369.12 L 480.12 369.12 Z M 480.12 346.38" stroke-width="1.00" stroke="black" stroke-linecap="round" stroke-linejoin="round" fill="white"  />
+
+<text x="558.10" y="362.49" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >namespace mgr</text>
+<path d="M 479.06 366.83 L 721.06 366.83 L 721.06 390.75 L 479.06 390.75 Z M 479.06 366.83" stroke-width="1.00" stroke="black" stroke-linecap="round" stroke-linejoin="round" fill="white"  />
+
+<text x="556.71" y="383.53" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >optionsform mgr</text>
+<path d="M 480.01 391.94 L 722.01 391.94 L 722.01 415.05 L 480.01 415.05 Z M 480.01 391.94" stroke-width="1.00" stroke="black" stroke-linecap="round" stroke-linejoin="round" fill="white"  />
+
+<text x="573.99" y="408.24" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >quota mgr</text>
+<path d="M 480.91 415.03 L 722.91 415.03 L 722.91 438.13 L 480.91 438.13 Z M 480.91 415.03" stroke-width="1.00" stroke="black" stroke-linecap="round" stroke-linejoin="round" fill="white"  />
+
+<text x="570.57" y="431.32" font-family="Helvetica" font-size="12.00px" fill="black" opacity="1.00" >volume mgr</text>
+
+</svg>
+<!--OldSVGSize:6688 -->
+<!--Data_umd3_bIncluded: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-->
